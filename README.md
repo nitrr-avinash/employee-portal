@@ -2,20 +2,20 @@
 Sample REST API application with basic endpoints to mock Employee portal
 
 # Endpoints
-/emmployees/
+/api/v1/emmployees/
 Get all employee details
 
-/employees/heirarchy
+/api/v1/employees/heirarchy
 Get Org Chart of all the employees
 
-/employees/{id}
+/api/v1/employees/{id}
 Get Employee by employee id
 
-/employees/highestpay?nth=3
+/api/v1/employees/highestpay?nth=3
 Get nth highest paid employee 
 
-/employees/gratuity
+/api/v1/employees/gratuity
 Get all employees elible for gratuity
 
-/employees/out-earn-mgr
+/api/v1/employees/out-earn-mgr
 Get all employees who earn more than their line managers
